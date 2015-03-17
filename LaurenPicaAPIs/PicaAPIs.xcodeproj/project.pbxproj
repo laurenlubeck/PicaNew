@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C849022D1AB75667007F86EE /* WorldStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849022C1AB75667007F86EE /* WorldStoryModel.swift */; };
+		C849022F1AB75B74007F86EE /* KimonoUSNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849022E1AB75B74007F86EE /* KimonoUSNews.swift */; };
+		C84902321AB75DE3007F86EE /* USStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902311AB75DE3007F86EE /* USStoryModel.swift */; };
+		C84902341AB75EB3007F86EE /* BusnessStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902331AB75EB3007F86EE /* BusnessStoryModel.swift */; };
+		C84902361AB75F45007F86EE /* KimonoBusinessNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902351AB75F45007F86EE /* KimonoBusinessNews.swift */; };
+		C84902381AB76075007F86EE /* TechnologyStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902371AB76075007F86EE /* TechnologyStoryModel.swift */; };
+		C849023A1AB7609E007F86EE /* KimonoTechnologyNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902391AB7609E007F86EE /* KimonoTechnologyNews.swift */; };
+		C849023C1AB7616A007F86EE /* EntertainmentStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849023B1AB7616A007F86EE /* EntertainmentStoryModel.swift */; };
+		C849023E1AB761CE007F86EE /* KimonoEntertainmentNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849023D1AB761CE007F86EE /* KimonoEntertainmentNews.swift */; };
+		C84902401AB76602007F86EE /* SportsStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849023F1AB76602007F86EE /* SportsStoryModel.swift */; };
+		C84902421AB7662D007F86EE /* KimonoSportsNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902411AB7662D007F86EE /* KimonoSportsNews.swift */; };
+		C84902441AB766B4007F86EE /* ScienceStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902431AB766B4007F86EE /* ScienceStoryModel.swift */; };
+		C84902461AB76723007F86EE /* KimonoScienceNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902451AB76723007F86EE /* KimonoScienceNews.swift */; };
+		C84902481AB7687F007F86EE /* HealthStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902471AB7687F007F86EE /* HealthStoryModel.swift */; };
+		C849024A1AB7689B007F86EE /* KimonoHealthNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84902491AB7689B007F86EE /* KimonoHealthNews.swift */; };
+		C849024C1AB76931007F86EE /* SpotlightNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849024B1AB76931007F86EE /* SpotlightNewsModel.swift */; };
+		C849024E1AB76952007F86EE /* KimonoSpotlightNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849024D1AB76952007F86EE /* KimonoSpotlightNews.swift */; };
+		C851EB6E1AB79A9E007CFA84 /* Embedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851EB6D1AB79A9E007CFA84 /* Embedly.swift */; };
+		C851EB701AB79BBB007CFA84 /* EmbedlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851EB6F1AB79BBB007CFA84 /* EmbedlyModel.swift */; };
+		C87D895F1AB112CB00B82035 /* KimonoWorldNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87D895E1AB112CB00B82035 /* KimonoWorldNews.swift */; };
+		C883D3FC1AB0A66B0089BCB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883D3FB1AB0A66B0089BCB8 /* AppDelegate.swift */; };
+		C883D3FE1AB0A66B0089BCB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883D3FD1AB0A66B0089BCB8 /* ViewController.swift */; };
+		C883D4011AB0A66B0089BCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C883D3FF1AB0A66B0089BCB8 /* Main.storyboard */; };
+		C883D4031AB0A66B0089BCB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C883D4021AB0A66B0089BCB8 /* Images.xcassets */; };
+		C883D4061AB0A66B0089BCB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C883D4041AB0A66B0089BCB8 /* LaunchScreen.xib */; };
+		C883D4121AB0A66B0089BCB8 /* PicaAPIsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883D4111AB0A66B0089BCB8 /* PicaAPIsTests.swift */; };
+		C883D41C1AB0A6800089BCB8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C883D41B1AB0A6800089BCB8 /* Podfile */; };
+		CBA25E08FB9B6DD45BBBC6C3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA96FDCB6FF96AF87E96F74 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C883D40C1AB0A66B0089BCB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C883D3EE1AB0A66B0089BCB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C883D3F51AB0A66B0089BCB8;
+			remoteInfo = PicaAPIs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79B998891BE7923F699B54A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C849022C1AB75667007F86EE /* WorldStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldStoryModel.swift; sourceTree = "<group>"; };
+		C849022E1AB75B74007F86EE /* KimonoUSNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoUSNews.swift; sourceTree = "<group>"; };
+		C84902311AB75DE3007F86EE /* USStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USStoryModel.swift; sourceTree = "<group>"; };
+		C84902331AB75EB3007F86EE /* BusnessStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusnessStoryModel.swift; sourceTree = "<group>"; };
+		C84902351AB75F45007F86EE /* KimonoBusinessNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoBusinessNews.swift; sourceTree = "<group>"; };
+		C84902371AB76075007F86EE /* TechnologyStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnologyStoryModel.swift; sourceTree = "<group>"; };
+		C84902391AB7609E007F86EE /* KimonoTechnologyNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoTechnologyNews.swift; sourceTree = "<group>"; };
+		C849023B1AB7616A007F86EE /* EntertainmentStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntertainmentStoryModel.swift; sourceTree = "<group>"; };
+		C849023D1AB761CE007F86EE /* KimonoEntertainmentNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoEntertainmentNews.swift; sourceTree = "<group>"; };
+		C849023F1AB76602007F86EE /* SportsStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsStoryModel.swift; sourceTree = "<group>"; };
+		C84902411AB7662D007F86EE /* KimonoSportsNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoSportsNews.swift; sourceTree = "<group>"; };
+		C84902431AB766B4007F86EE /* ScienceStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceStoryModel.swift; sourceTree = "<group>"; };
+		C84902451AB76723007F86EE /* KimonoScienceNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoScienceNews.swift; sourceTree = "<group>"; };
+		C84902471AB7687F007F86EE /* HealthStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthStoryModel.swift; sourceTree = "<group>"; };
+		C84902491AB7689B007F86EE /* KimonoHealthNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoHealthNews.swift; sourceTree = "<group>"; };
+		C849024B1AB76931007F86EE /* SpotlightNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotlightNewsModel.swift; sourceTree = "<group>"; };
+		C849024D1AB76952007F86EE /* KimonoSpotlightNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoSpotlightNews.swift; sourceTree = "<group>"; };
+		C851EB6D1AB79A9E007CFA84 /* Embedly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embedly.swift; sourceTree = "<group>"; };
+		C851EB6F1AB79BBB007CFA84 /* EmbedlyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedlyModel.swift; sourceTree = "<group>"; };
+		C87D895E1AB112CB00B82035 /* KimonoWorldNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KimonoWorldNews.swift; sourceTree = "<group>"; };
+		C883D3F61AB0A66B0089BCB8 /* PicaAPIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicaAPIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C883D3FA1AB0A66B0089BCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C883D3FB1AB0A66B0089BCB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C883D3FD1AB0A66B0089BCB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C883D4001AB0A66B0089BCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C883D4021AB0A66B0089BCB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C883D4051AB0A66B0089BCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C883D40B1AB0A66B0089BCB8 /* PicaAPIsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicaAPIsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C883D4101AB0A66B0089BCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C883D4111AB0A66B0089BCB8 /* PicaAPIsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicaAPIsTests.swift; sourceTree = "<group>"; };
+		C883D41B1AB0A6800089BCB8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DCC98F9E44D3C9296C265F8F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDA96FDCB6FF96AF87E96F74 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C883D3F31AB0A66B0089BCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA25E08FB9B6DD45BBBC6C3 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C883D4081AB0A66B0089BCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42462DB218D44D92E6832B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B998891BE7923F699B54A8 /* Pods.debug.xcconfig */,
+				DCC98F9E44D3C9296C265F8F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C84902301AB75DA6007F86EE /* Story Models */ = {
+			isa = PBXGroup;
+			children = (
+				C849022C1AB75667007F86EE /* WorldStoryModel.swift */,
+				C84902311AB75DE3007F86EE /* USStoryModel.swift */,
+				C84902331AB75EB3007F86EE /* BusnessStoryModel.swift */,
+				C84902371AB76075007F86EE /* TechnologyStoryModel.swift */,
+				C849023F1AB76602007F86EE /* SportsStoryModel.swift */,
+				C849023B1AB7616A007F86EE /* EntertainmentStoryModel.swift */,
+				C84902431AB766B4007F86EE /* ScienceStoryModel.swift */,
+				C849024B1AB76931007F86EE /* SpotlightNewsModel.swift */,
+				C84902471AB7687F007F86EE /* HealthStoryModel.swift */,
+				C851EB6F1AB79BBB007CFA84 /* EmbedlyModel.swift */,
+			);
+			name = "Story Models";
+			sourceTree = "<group>";
+		};
+		C87D89611AB1134D00B82035 /* Connect to APIs */ = {
+			isa = PBXGroup;
+			children = (
+				C87D895E1AB112CB00B82035 /* KimonoWorldNews.swift */,
+				C84902451AB76723007F86EE /* KimonoScienceNews.swift */,
+				C84902411AB7662D007F86EE /* KimonoSportsNews.swift */,
+				C849023D1AB761CE007F86EE /* KimonoEntertainmentNews.swift */,
+				C849022E1AB75B74007F86EE /* KimonoUSNews.swift */,
+				C849024D1AB76952007F86EE /* KimonoSpotlightNews.swift */,
+				C84902351AB75F45007F86EE /* KimonoBusinessNews.swift */,
+				C84902391AB7609E007F86EE /* KimonoTechnologyNews.swift */,
+				C84902491AB7689B007F86EE /* KimonoHealthNews.swift */,
+				C851EB6D1AB79A9E007CFA84 /* Embedly.swift */,
+			);
+			name = "Connect to APIs";
+			sourceTree = "<group>";
+		};
+		C883D3ED1AB0A66B0089BCB8 = {
+			isa = PBXGroup;
+			children = (
+				C883D41B1AB0A6800089BCB8 /* Podfile */,
+				C883D3F81AB0A66B0089BCB8 /* PicaAPIs */,
+				C883D40E1AB0A66B0089BCB8 /* PicaAPIsTests */,
+				C883D3F71AB0A66B0089BCB8 /* Products */,
+				A42462DB218D44D92E6832B2 /* Pods */,
+				EF9F0FD8AE7429A857D6B02A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C883D3F71AB0A66B0089BCB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C883D3F61AB0A66B0089BCB8 /* PicaAPIs.app */,
+				C883D40B1AB0A66B0089BCB8 /* PicaAPIsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C883D3F81AB0A66B0089BCB8 /* PicaAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				C84902301AB75DA6007F86EE /* Story Models */,
+				C87D89611AB1134D00B82035 /* Connect to APIs */,
+				C883D3FB1AB0A66B0089BCB8 /* AppDelegate.swift */,
+				C883D3FD1AB0A66B0089BCB8 /* ViewController.swift */,
+				C883D3FF1AB0A66B0089BCB8 /* Main.storyboard */,
+				C883D4021AB0A66B0089BCB8 /* Images.xcassets */,
+				C883D4041AB0A66B0089BCB8 /* LaunchScreen.xib */,
+				C883D3F91AB0A66B0089BCB8 /* Supporting Files */,
+			);
+			path = PicaAPIs;
+			sourceTree = "<group>";
+		};
+		C883D3F91AB0A66B0089BCB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C883D3FA1AB0A66B0089BCB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C883D40E1AB0A66B0089BCB8 /* PicaAPIsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C883D4111AB0A66B0089BCB8 /* PicaAPIsTests.swift */,
+				C883D40F1AB0A66B0089BCB8 /* Supporting Files */,
+			);
+			path = PicaAPIsTests;
+			sourceTree = "<group>";
+		};
+		C883D40F1AB0A66B0089BCB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C883D4101AB0A66B0089BCB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9F0FD8AE7429A857D6B02A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA96FDCB6FF96AF87E96F74 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C883D3F51AB0A66B0089BCB8 /* PicaAPIs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C883D4151AB0A66B0089BCB8 /* Build configuration list for PBXNativeTarget "PicaAPIs" */;
+			buildPhases = (
+				114DAEC368D3D6F1DBB29432 /* Check Pods Manifest.lock */,
+				C883D3F21AB0A66B0089BCB8 /* Sources */,
+				C883D3F31AB0A66B0089BCB8 /* Frameworks */,
+				C883D3F41AB0A66B0089BCB8 /* Resources */,
+				6E65FA11B4016A92141A5019 /* Embed Pods Frameworks */,
+				16D7C670C933750738C68BD3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicaAPIs;
+			productName = PicaAPIs;
+			productReference = C883D3F61AB0A66B0089BCB8 /* PicaAPIs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C883D40A1AB0A66B0089BCB8 /* PicaAPIsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C883D4181AB0A66B0089BCB8 /* Build configuration list for PBXNativeTarget "PicaAPIsTests" */;
+			buildPhases = (
+				C883D4071AB0A66B0089BCB8 /* Sources */,
+				C883D4081AB0A66B0089BCB8 /* Frameworks */,
+				C883D4091AB0A66B0089BCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C883D40D1AB0A66B0089BCB8 /* PBXTargetDependency */,
+			);
+			name = PicaAPIsTests;
+			productName = PicaAPIsTests;
+			productReference = C883D40B1AB0A66B0089BCB8 /* PicaAPIsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C883D3EE1AB0A66B0089BCB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Lauren Lubeck";
+				TargetAttributes = {
+					C883D3F51AB0A66B0089BCB8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C883D40A1AB0A66B0089BCB8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C883D3F51AB0A66B0089BCB8;
+					};
+				};
+			};
+			buildConfigurationList = C883D3F11AB0A66B0089BCB8 /* Build configuration list for PBXProject "PicaAPIs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C883D3ED1AB0A66B0089BCB8;
+			productRefGroup = C883D3F71AB0A66B0089BCB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C883D3F51AB0A66B0089BCB8 /* PicaAPIs */,
+				C883D40A1AB0A66B0089BCB8 /* PicaAPIsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C883D3F41AB0A66B0089BCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C883D4011AB0A66B0089BCB8 /* Main.storyboard in Resources */,
+				C883D4061AB0A66B0089BCB8 /* LaunchScreen.xib in Resources */,
+				C883D41C1AB0A6800089BCB8 /* Podfile in Resources */,
+				C883D4031AB0A66B0089BCB8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C883D4091AB0A66B0089BCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114DAEC368D3D6F1DBB29432 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16D7C670C933750738C68BD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E65FA11B4016A92141A5019 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C883D3F21AB0A66B0089BCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C849022F1AB75B74007F86EE /* KimonoUSNews.swift in Sources */,
+				C84902401AB76602007F86EE /* SportsStoryModel.swift in Sources */,
+				C84902361AB75F45007F86EE /* KimonoBusinessNews.swift in Sources */,
+				C883D3FE1AB0A66B0089BCB8 /* ViewController.swift in Sources */,
+				C84902341AB75EB3007F86EE /* BusnessStoryModel.swift in Sources */,
+				C84902381AB76075007F86EE /* TechnologyStoryModel.swift in Sources */,
+				C84902461AB76723007F86EE /* KimonoScienceNews.swift in Sources */,
+				C849022D1AB75667007F86EE /* WorldStoryModel.swift in Sources */,
+				C851EB701AB79BBB007CFA84 /* EmbedlyModel.swift in Sources */,
+				C849024E1AB76952007F86EE /* KimonoSpotlightNews.swift in Sources */,
+				C84902321AB75DE3007F86EE /* USStoryModel.swift in Sources */,
+				C849024A1AB7689B007F86EE /* KimonoHealthNews.swift in Sources */,
+				C87D895F1AB112CB00B82035 /* KimonoWorldNews.swift in Sources */,
+				C84902481AB7687F007F86EE /* HealthStoryModel.swift in Sources */,
+				C849023E1AB761CE007F86EE /* KimonoEntertainmentNews.swift in Sources */,
+				C84902421AB7662D007F86EE /* KimonoSportsNews.swift in Sources */,
+				C84902441AB766B4007F86EE /* ScienceStoryModel.swift in Sources */,
+				C849024C1AB76931007F86EE /* SpotlightNewsModel.swift in Sources */,
+				C883D3FC1AB0A66B0089BCB8 /* AppDelegate.swift in Sources */,
+				C849023A1AB7609E007F86EE /* KimonoTechnologyNews.swift in Sources */,
+				C851EB6E1AB79A9E007CFA84 /* Embedly.swift in Sources */,
+				C849023C1AB7616A007F86EE /* EntertainmentStoryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C883D4071AB0A66B0089BCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C883D4121AB0A66B0089BCB8 /* PicaAPIsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C883D40D1AB0A66B0089BCB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C883D3F51AB0A66B0089BCB8 /* PicaAPIs */;
+			targetProxy = C883D40C1AB0A66B0089BCB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C883D3FF1AB0A66B0089BCB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C883D4001AB0A66B0089BCB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C883D4041AB0A66B0089BCB8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C883D4051AB0A66B0089BCB8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C883D4131AB0A66B0089BCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C883D4141AB0A66B0089BCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C883D4161AB0A66B0089BCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B998891BE7923F699B54A8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicaAPIs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C883D4171AB0A66B0089BCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC98F9E44D3C9296C265F8F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicaAPIs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C883D4191AB0A66B0089BCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicaAPIsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicaAPIs.app/PicaAPIs";
+			};
+			name = Debug;
+		};
+		C883D41A1AB0A66B0089BCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicaAPIsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicaAPIs.app/PicaAPIs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C883D3F11AB0A66B0089BCB8 /* Build configuration list for PBXProject "PicaAPIs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C883D4131AB0A66B0089BCB8 /* Debug */,
+				C883D4141AB0A66B0089BCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C883D4151AB0A66B0089BCB8 /* Build configuration list for PBXNativeTarget "PicaAPIs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C883D4161AB0A66B0089BCB8 /* Debug */,
+				C883D4171AB0A66B0089BCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C883D4181AB0A66B0089BCB8 /* Build configuration list for PBXNativeTarget "PicaAPIsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C883D4191AB0A66B0089BCB8 /* Debug */,
+				C883D41A1AB0A66B0089BCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C883D3EE1AB0A66B0089BCB8 /* Project object */;
+}
